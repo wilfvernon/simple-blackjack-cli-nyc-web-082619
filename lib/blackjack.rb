@@ -60,6 +60,7 @@ end
 def runner
   welcome
   total = initial_round
+  binding.pry
   until total > 21
     total += hit?(total)
     binding.pry
