@@ -67,6 +67,6 @@ def runner
     display_card_total(total)
     #binding.pry
   end
-  end_game
+  end_game(total)
 end
     
